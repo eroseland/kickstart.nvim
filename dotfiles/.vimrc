@@ -1,1 +1,0 @@
-/Users/i20506/.spf13-vim-3/.vimrc
