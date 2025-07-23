@@ -137,12 +137,12 @@ local function uncomment(opts)
 end
 
 vim.api.nvim_create_user_command('CommentOut', comment_out, { range = true })
-vim.keymap.set('v', '<C-k>/', ':CommentOut<CR>')
-vim.keymap.set('n', '<C-k>', ':CommentOut<CR>')
+vim.keymap.set('v', '<C-[>', ':CommentOut<CR>')
+vim.keymap.set('n', '<C-[>', ':CommentOut<CR>')
 
 vim.api.nvim_create_user_command('Uncomment', uncomment, { range = true })
-vim.keymap.set('v', '<leader>uc', ':Uncomment<CR>')
-vim.keymap.set('n', '<leader>uc', ':Uncomment<CR>')
+vim.keymap.set('v', '<C-]>', ':Uncomment<CR>')
+vim.keymap.set('n', '<C-]>', ':Uncomment<CR>')
 
 -- Case-insensitive searching UNLESS \C or one or more capital letters in the search term
 vim.o.ignorecase = true

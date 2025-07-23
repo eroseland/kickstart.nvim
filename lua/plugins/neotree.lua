@@ -12,6 +12,6 @@ return {
     opts = {},
     config = function()
         vim.keymap.set('n', '<C-n>', ':Neotree filesystem reveal<CR>')
-        vim.keymap.set('n', '<C-i>', ':Neotree toggle<CR>')
+        vim.keymap.set('n', '<C-m>', ':Neotree toggle<CR>')
     end
 }
