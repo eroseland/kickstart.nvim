@@ -20,7 +20,8 @@ local non_c_line_comments_by_filetype = {
   python = '#',
   sql = '--',
   terraform = '#',
-  bash = '#'
+  bash = '#',
+  sh = '#'
 }
 
 local function comment_out(opts)
