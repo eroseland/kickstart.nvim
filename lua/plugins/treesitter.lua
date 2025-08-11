@@ -8,7 +8,7 @@ return {
         config.setup({
             highlight = { enable = true },
             indent = { enable = true },
-            ensure_installed = { 
+            ensure_installed = {
                 "c_sharp",
                 "css",
                 "gitignore",

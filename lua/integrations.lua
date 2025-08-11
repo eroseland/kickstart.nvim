@@ -21,7 +21,8 @@ local non_c_line_comments_by_filetype = {
   sql = '--',
   terraform = '#',
   bash = '#',
-  sh = '#'
+  sh = '#',
+  yaml = '#'
 }
 
 local function comment_out(opts)
